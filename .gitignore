@@ -1,0 +1,31 @@
+# Environment variables & secrets
+.env
+.env.backup
+.env.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Storage & Logs
+storage/logs/*.log
+!storage/logs/.gitkeep
+
+# Uploaded User Content
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Dependencies
+vendor/
+node_modules/
+
+# Temporary files
+*.tmp
+*.bak
